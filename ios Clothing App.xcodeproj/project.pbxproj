@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B554F7B2A2F47DB00EE62B4 /* ViewAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B554F7A2A2F47DB00EE62B4 /* ViewAllViewController.swift */; };
 		AD72A96E2A28D6F500229963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A96D2A28D6F500229963 /* AppDelegate.swift */; };
 		AD72A9702A28D6F500229963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A96F2A28D6F500229963 /* SceneDelegate.swift */; };
 		AD72A9722A28D6F500229963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A9712A28D6F500229963 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B554F7A2A2F47DB00EE62B4 /* ViewAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllViewController.swift; sourceTree = "<group>"; };
 		AD72A96A2A28D6F500229963 /* ios Clothing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios Clothing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72A96D2A28D6F500229963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD72A96F2A28D6F500229963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				AD72A9762A28D6F600229963 /* Assets.xcassets */,
 				AD72A9782A28D6F600229963 /* LaunchScreen.storyboard */,
 				AD72A97B2A28D6F600229963 /* Info.plist */,
+				4B554F7A2A2F47DB00EE62B4 /* ViewAllViewController.swift */,
 			);
 			path = "ios Clothing App";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD72A9722A28D6F500229963 /* ViewController.swift in Sources */,
+				4B554F7B2A2F47DB00EE62B4 /* ViewAllViewController.swift in Sources */,
 				AD72A96E2A28D6F500229963 /* AppDelegate.swift in Sources */,
 				AD72A9702A28D6F500229963 /* SceneDelegate.swift in Sources */,
 			);
