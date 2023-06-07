@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B554F7B2A2F47DB00EE62B4 /* ViewAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B554F7A2A2F47DB00EE62B4 /* ViewAllViewController.swift */; };
+		4B554F7E2A2F696C00EE62B4 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B554F7D2A2F696C00EE62B4 /* Products.swift */; };
 		AD72A96E2A28D6F500229963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A96D2A28D6F500229963 /* AppDelegate.swift */; };
 		AD72A9702A28D6F500229963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A96F2A28D6F500229963 /* SceneDelegate.swift */; };
 		AD72A9722A28D6F500229963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A9712A28D6F500229963 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		4B554F7A2A2F47DB00EE62B4 /* ViewAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllViewController.swift; sourceTree = "<group>"; };
+		4B554F7D2A2F696C00EE62B4 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		AD72A96A2A28D6F500229963 /* ios Clothing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios Clothing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72A96D2A28D6F500229963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD72A96F2A28D6F500229963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B554F7C2A2F692A00EE62B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B554F7D2A2F696C00EE62B4 /* Products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AD72A9612A28D6F500229963 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		AD72A96C2A28D6F500229963 /* ios Clothing App */ = {
 			isa = PBXGroup;
 			children = (
+				4B554F7C2A2F692A00EE62B4 /* Models */,
 				AD72A96D2A28D6F500229963 /* AppDelegate.swift */,
 				AD72A96F2A28D6F500229963 /* SceneDelegate.swift */,
 				AD72A9712A28D6F500229963 /* ViewController.swift */,
@@ -143,6 +154,7 @@
 			files = (
 				AD72A9722A28D6F500229963 /* ViewController.swift in Sources */,
 				4B554F7B2A2F47DB00EE62B4 /* ViewAllViewController.swift in Sources */,
+				4B554F7E2A2F696C00EE62B4 /* Products.swift in Sources */,
 				AD72A96E2A28D6F500229963 /* AppDelegate.swift in Sources */,
 				AD72A9702A28D6F500229963 /* SceneDelegate.swift in Sources */,
 			);

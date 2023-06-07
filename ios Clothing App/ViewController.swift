@@ -53,17 +53,17 @@ class ViewController: UIViewController {
 			print("Men: \(menClicked)")
 
 			if let viewAllVC = segue.destination as? ViewAllViewController{
-				viewAllVC.text = String(menClicked)
-				viewAllVC.dataLabel?.text = String(viewAllVC.text ?? "Data value")
+				viewAllVC.text = "Men"
+//				viewAllVC.dataLabel?.text = String(viewAllVC.text ?? "Data value")
 			}
 		}
 		
 		else if segue.identifier == "women"{
 			womenClicked.toggle()
-			print("Women: \(womenClicked)")
+			print("Women")
 			
 			if let viewAllVC = segue.destination as? ViewAllViewController{
-				viewAllVC.text = String(womenClicked)
+				viewAllVC.text = "Women"
 			}
 		}
 		

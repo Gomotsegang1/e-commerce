@@ -11,14 +11,10 @@ class ViewAllViewController: UIViewController {
 	
 	var text: String?
 	
-	@IBOutlet weak var dataLabel: UILabel!
-	
 	var homeVC = ViewController()
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		
-		dataLabel.text = text
     }
 
 }
